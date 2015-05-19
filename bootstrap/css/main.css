@@ -47,8 +47,28 @@ body {
 
 /* Carousel base class */
 .carousel {
-  height: 600px;
+  height: 700px;
+  margin-top:100px;
   margin-bottom: 60px;
+  position:relative;
+background-color:transparent;
+width:100%;
+}
+.carousel:before{
+	z-index: -1;
+    content: '';
+	background-image:url("../../images/services_image.png");
+    opacity: 0.6;
+	filter: alpha(opacity=40); /* For IE8 and earlier */ 
+	background-size:100%;
+	background-repeat: no-repeat;
+	opacity: 0.5;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	z-index: -1; 
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -57,15 +77,14 @@ body {
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-  height: 600px;
-  background-color: #777;
+  height: 700px;
 }
 .carousel-inner > .item > img {
   position: absolute;
   top: 0;
   left: 0;
   min-width: 100%;
-  height: 600px;
+  height: 700px;
 }
 
 
