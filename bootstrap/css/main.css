@@ -5,7 +5,7 @@
 body {
   padding-bottom: 40px;
   color: #5a5a5a;
-  font-family:Open Sans, sans-serif, Tahoma, Geneva;
+  font-family:Roboto,Open Sans, sans-serif, Tahoma, Geneva;
   	background-color: #FFC100;
 }
 
@@ -98,6 +98,12 @@ width:100%;
 .col-md-7{
 	opacity: 0.4;
 	background-color:#fff;
+	padding-right: 0px;
+  padding-left: 0px;
+}
+.col-md-5{
+  padding-right: 0px;
+  padding-left: 0px;
 }
 .marketing h2 {
   font-weight: normal;
@@ -150,6 +156,11 @@ text-align:center;
 
 .featurette-image{
 	background-color:#5B5B5B;
+}
+.featurette{
+	-webkit-box-shadow: 0px 0px 35px -2px rgba(0,0,0,0.74);
+-moz-box-shadow: 0px 0px 35px -2px rgba(0,0,0,0.74);
+box-shadow: 0px 0px 35px -2px rgba(0,0,0,0.74);
 }
 .jumbotron{ 	
 margin-top:100px;
